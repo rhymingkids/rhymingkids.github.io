@@ -27,7 +27,10 @@
 			padding:0;
 			font-family: 'Gloria Hallelujah', cursive;
 		}
-		.banner{
+		.container{
+			max-height: 600px;
+		}
+/*		.banner{
 			padding-left: 30px;
 			background-image: url(img/image.png);
 			min-height: 520px;
@@ -38,7 +41,7 @@
 			width: 50%;
 			height: 400px;
 			float: left;
-		}
+		}*/
 		.icon{
 			width: 20px;
 			height: auto;
@@ -81,16 +84,18 @@
 			color: #212121;
 			text-align: right;
 			padding: 20px;
-			margin-top: 80%;
+			margin-top: -100px;
+			z-index: 10000;
 			font-family: 'Varela Round', sans-serif;
+
 		}
 
     </style>
   </head>
   <body>
     <div class="container">
-    <div class="row default-primary-color">
-    	<div class="col-md-6  col-sm-6 col-xm-6 ">
+    <div class="row ">
+    	<div class="col-md-6  col-sm-6 col-xm-6 default-primary-color toko">
         <h3>
 			Stay tuned we are launching Soon!
 		</h3>
@@ -101,6 +106,7 @@
 		<p class="footer">Designed with <img src="img/like.png" alt="love" class="icon"> by Ashish &amp; Neeraj!</p>
     	</div>
     	<div class="col-md-6 banner col-sm-6 col-xm-6">
+    		<img src="img/image.png" class="img-responsive" alt="">
     		<p class="right-footer">Rhyming Kids Corner | Silchar</p>
     	</div>
     </div>
